@@ -7,6 +7,7 @@ const renderCalendar = () => {
   date.setDate(1);
   console.log(date);
 
+  // select the div that will contain all of the rendered days of the month
   const monthDays = document.querySelector(".days");
 
   // get the last day of this month
